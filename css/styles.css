@@ -21,7 +21,13 @@ header {
 .container-sm {
   max-width: 900px;
   margin: 0 auto;
+}
 
+.blank {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  padding: 20px;
 }
 
 .col-20 {
@@ -45,6 +51,10 @@ header {
   width: 40%;
 }
 
+.debug-height-500 {
+  height: 500px;
+}
+
 /* utilities */
 .bg-orange {
   background-color: orange;
@@ -55,8 +65,16 @@ header {
   border-style: dashed;
 }
 
+.bg-darkblue {
+  background-color: #00018B;
+}
+
+.bg-dimpink {
+  background-color: #EF82ED;
+}
+
 .bg-blue {
-  background-color: blue;
+  background-color: #1E90FF;
 }
 
 .bg-pink {
